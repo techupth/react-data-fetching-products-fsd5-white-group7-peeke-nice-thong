@@ -8,7 +8,6 @@ function App() {
 
   const fetchData = async () => {
     try {
-      // Simulate delay for testing purposes
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       const response = await axios.get("http://localhost:4001/products");
